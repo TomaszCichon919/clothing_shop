@@ -1,0 +1,55 @@
+/*Carousel*/
+.carousel-inner {
+    height: 100vh;
+}
+.carousel-caption {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: auto;
+    bottom: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.carousel-item {
+    height: 100vh;
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+/*Products*/
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.new-designs h5 {
+    color:#ffff;
+}
+
+/*Contact*/
+
+.contact {
+    background-color: #E8DFCA;
+}
+
+.icon {
+font-size: 16px;
+width: 30px;
+height: 60px;
+line-height: 30px;
+color: black;
+text-align: center;
+}
+.contact .box {
+    flex-shrink: unset;
+
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #E1CEB5;
+}
